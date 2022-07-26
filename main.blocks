@@ -4,4 +4,10 @@
         # . # . # 
         . . # . . 
         . . # . .
-        `</field></block></statement></block></next></block></statement></block></xml>
+        `</field></block></statement><next><block type="controls_if" id="@dL1Xil#80(6L+x842F!"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_operation" id="54A2vrl`s/m/EayZ]OGd"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="[KC)ZA{eHAZ$o5`cEtLV"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="^]|=ExXcMSFg@I?gPt|#"></block></value><value name="B"><shadow type="math_number" id="eaII/L~lRpGMnB?e,T-["><field name="NUM">185</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="V[DWo0JV0i/ZQ_4TGc(Q"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="Gw.Z]o(BC/lH*Y.KWMn|"></block></value><value name="B"><shadow type="math_number" id="DD]HmN5[Z4ePG)UXYcFx"><field name="NUM">175</field></shadow></value></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="S:6@jg%[g}y_78^UozOQ"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement></block></next></block></next></block></statement></block></xml>

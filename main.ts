@@ -9,4 +9,13 @@ basic.forever(function () {
             . . # . .
             `)
     }
+    if (input.compassHeading() <= 185 && input.compassHeading() >= 175) {
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            # . # . #
+            . # # # .
+            . . # . .
+            `)
+    }
 })
